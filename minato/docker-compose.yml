@@ -23,7 +23,7 @@ services:
       - "6069:6069"
       - "8533:8533"
       - "8520:8520"
-      - "30303:30303" 
+      - "30308:30308" 
     volumes:
       - op-geth-storage:/data/optimism
       - ./minato-genesis.json:/config/minato-genesis.json
